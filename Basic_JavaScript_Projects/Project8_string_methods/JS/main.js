@@ -17,7 +17,7 @@ function UpperMethod() { //uppercases whole string
     document.getElementById("upper").innerHTML = UpSentence;
 }
 
-function toString() { //converts number to string
+function stringFunction() { //converts number to string
     var a = 256;
     document.getElementById("tostring").innerHTML = a.toString();
 }
@@ -27,7 +27,7 @@ function precisionMethod() { //precisely targets a certain range of a number cho
     document.getElementById("precision").innerHTML = a.toPrecision(18);
 }
 
-function toFixed() { //rounds the number to a specified number of decimals
+function fixedFunction() { //rounds the number to a specified number of decimals
     var num = 5.56789;
     var n = num.toFixed(2);
     document.getElementById("fixed").innerHTML = n;
